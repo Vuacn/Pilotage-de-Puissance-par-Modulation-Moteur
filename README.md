@@ -20,6 +20,3 @@ This project focuses on building and analyzing a simple motor‑control system u
 - Experiment with different PWM values and observe the motor’s response.  
 - Use the oscilloscope to visualize the PWM waveform and interpret the signal.  
 
----
-
-If you want, I can also help you write the full project report, create diagrams, or even draft the Arduino code.

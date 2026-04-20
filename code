@@ -1,6 +1,6 @@
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
-LiquidCrystal_I2C lcd(0x20, 16, 2); // Adresse I2C : 0x20 ou 0x27
+LiquidCrystal_I2C lcd(0x20, 16, 2); // Adresse I2C : 0x20 or 0x27 ( iused 0x27)
 int brochePot = A0; // Entrée analogique
 int brocheMoteur = 9; // Sortie PWM (notée ~ sur Arduino)
 int valeurCAN = 0; // De 0 à 1023
@@ -12,7 +12,7 @@ Serial.begin(9600);
 pinMode(brocheMoteur, OUTPUT);
 lcd.init();
 lcd.backlight();
-lcd.print("Systeme PWM OK");
+lcd.print("PWM System OK");
 delay(1000);
 lcd.clear();
 }

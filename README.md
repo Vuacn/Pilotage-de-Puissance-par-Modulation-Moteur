@@ -1,6 +1,6 @@
 ##  Mini‑Project: DC Motor Control Using PWM and LCD Display (Arduino – Tinkercad)
 
-This project focuses on building and analyzing a simple motor‑control system using an Arduino. You will design a circuit that drives a DC motor through a transistor, control its speed using a PWM (Pulse Width Modulation) signal, and display relevant information on an I2C LCD screen. The goal is to understand how hardware and software interact to regulate motor speed in real time.
+This project focuses on building and analyzing a simple motor‑control system using an Arduino. You will design a circuit that drives a DC motor through a transistor,  and control his speed using a PWM (Pulse Width Modulation) signal, and display relevant information on an I2C LCD screen. The goal is to understand how hardware and software interact to regulate motor speed in real time.
 
 ###  **Objectives**
 - Use an Arduino to generate a PWM signal and control the speed of a DC motor.  

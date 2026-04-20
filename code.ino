@@ -1,3 +1,4 @@
+// Arduino C++ code
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 LiquidCrystal_I2C lcd(0x20, 16, 2); // Adresse I2C : 0x20 or 0x27 ( iused 0x27)
